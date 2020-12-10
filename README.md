@@ -2,4 +2,4 @@
 
 ## Typescript
 
--[ ] Should we or shouldnt we. 
+- [ ] Should we or shouldnt we. 
