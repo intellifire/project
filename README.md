@@ -46,7 +46,7 @@ A web component has the capacity to be like a stand alone application with its o
 #### How?
 I have gone through the experience of learning how to build web components from pure HTML, CSS and Javascript, and the first thing I learned is, Its hard, and takes time and would be easier if there was something that was not a bloated framework to get it done. Hello litElement.
 
-[litElement](#lit-element)
+__[litElement](#lit-element-start)__
 This very lightweight javascript library provides a simple base class for creating fast, lightweight web components. From the website:
 > LitElement makes it easy to define Web Components – ideal for sharing elements across your organization or building a UI design system.
 
@@ -260,7 +260,7 @@ NodeJS and NPM offer several benefits:
 
 ### litElement (and LitHTML)
 #### Why?
-The advantages are obvious, [but see details else where in this document](#lit-element)
+The advantages are obvious, [but see details else where in this document](#lit-element-start)
 ### Pure Web Components (HTML/JS vs React/Vue)
 #### Why?
 see: [Web Components Elsewhere in this document](#web-components)
