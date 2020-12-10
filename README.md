@@ -36,7 +36,7 @@ with vast improvements under the hood of the browsers addressing:
 
 Documentation fo web standards has been dramatically improved by the multi corporate collaboration to keep the MDN sites updated.
 
-### Web components
+### [Web components](#web-components)
 #### Why?
 web components represent a leap forward in basing development on standards. A web component is an application built inside of a custom HTML tag.
 
@@ -46,7 +46,7 @@ A web component has the capacity to be like a stand alone application with its o
 #### How?
 I have gone through the experience of learning how to build web components from pure HTML, CSS and Javascript, and the first thing I learned is, Its hard, and takes time and would be easier if there was something that was not a bloated framework to get it done. Hello litElement.
 
-**litElement**
+[litElement](#lit-element)
 This very lightweight javascript library provides a simple base class for creating fast, lightweight web components. From the website:
 > LitElement makes it easy to define Web Components – ideal for sharing elements across your organization or building a UI design system.
 
@@ -160,20 +160,20 @@ This is built into those browsers, and for those that cannot do it, you can easi
 - PWAs rely on HTTPS to provide data safety and minimize the risk of security issues
 - PWAs leverage Web Bluetooth technology that includes certain security capabilities.
 
-[above summarized from: https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/](https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/)
-
-
+[summarized from: https://www.sam-solutions.com/blog/
+the-benefits-of-progressive-web-apps-pwa-for-business/] [1]
 
 #### How?
 
 Building, Implementing and maintaining PWAs can be streamlined with the following tools/products (See explanations elsewhere in this document):
 
-open web components
-litElement
-nodeJS
+- open web components
+- litElement
+- nodeJS
 
 
-### Mobile First - #### Why?
+### Mobile First
+#### Why?
 
 Every piece of software I have ever developed has had the client come to me and say, can we make it into an app now?
 
@@ -181,26 +181,56 @@ Making an app or a website mobile ready after the fact is silly and wasteful and
 
 #### How?
 
+- Leverage W3.CSS (mobile first)
+- Leverage PWAs
+
+
+
 ## Typescript
 
 - [ ] Should we or shouldn't we.
+
+This might be a moot point, I think we should, I just don't know typescript yet.
 
 ## Frameworks/Libraries I am avoiding (most popular first)
 
 ### React
 #### Why?
+- size
+- complexity
+- learning curve
+- my deadlines
 
 ### Vue.js
 #### Why?
+- size
+- complexity
+- learning curve
+- my deadlines
 
 ### Svelte
 #### Why?
+- size
+- complexity
+- learning curve
+- my deadlines
 
 ### Angular
 #### Why?
+- size
+- complexity
+- learning curve
+- my deadlines
+- very old (relative)
 
 ### Jquery & Jquery UI
 #### Why?
+- size
+- complexity
+- learning curve
+- my deadlines
+- most functionality can be achieved by using ES6 standard.
+- UBER old (relative)
 
 ## Libraries/technologies I am leaning towards.
 
@@ -230,10 +260,10 @@ NodeJS and NPM offer several benefits:
 
 ### litElement (and LitHTML)
 #### Why?
-The advantages are obvious, but see details
+The advantages are obvious, [but see details else where in this document](#lit-element)
 ### Pure Web Components (HTML/JS vs React/Vue)
 #### Why?
-
+see: [Web Components Elsewhere in this document](#web-components)
 ### OpenAPI 3.0 aka Swagger
 #### Why?
 __Code Generation__
@@ -243,7 +273,7 @@ __Documentation__
 Further, OpenAPI 3 also provides immediate robust and accessible API documentation with built in teaching and demo tools to help a user understand exactly how to use the API and to implement it in your favorite language.
 
 __Demos and Sample Request and Response Structures__
-Finally, the resultant documentation provides not only great information on how to use the API but also examples of what the API input need to look like, but also what the returned results look like.
+Finally, the resultant documentation provides not only great information on how to use the API but also examples of what the API input need to look like, but also what the returned results look like in either JSON or XML (and even more formats)
 
 
 ### Open Web Components
@@ -254,3 +284,4 @@ with a simple line of code and 4 easy to answer questions, the OWC code generato
 
 
 
+[1]: [above summarized from: https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/](https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/)
