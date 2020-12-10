@@ -17,9 +17,11 @@ My Recent choices have been driven by the desire to solve the following problems
 * lessen dependency on my knowledge to support systems.
 
 
-### Frameworkless
+### Frameworkless = Web Standards Instead of bloated Frameworks and Libraries
 #### Why?
 Frameworks come and go, while web standards tend to stick around and evolve in a backwards  compatible way. Frameworks cost bandwidth & overall application footprint real estate, while they save development time. They also increase depandancy madness and increase the possiblity of introducing bugs with any dependency upgrade/changes and frameworks can affect the ‘health’ and lifespan of a codebase.
+
+web standards and web componets themselves wont fundamentally change as often as a framework or a library, and when standards change they are usually backwards compatible or deprecation and migration is usually well documented at MDN
 
 #### How?
 Going frameworkless looks attractive to me for many reasons, but mostly becuase it is eminently doable. The Modern Browser is now capabale of doing so much more since the addition of the following to basic browser ecosystems.
@@ -32,10 +34,15 @@ with vast improvements under the hood of the browsers addressing:
 * DOM manipulation works
 * front-end application state management with different patterns
 
+Documentation fo web standards has been dramatically improved by the multi coprpate collaboration to keep the MDN sites updated.
 
 ### Web components
 #### Why?
-web compontest represent a leap forward in basing development on standards. A web componet has the capacity to be like a stand alone application with its own built in DOM and facilites, and can be 100% agnostic of your application look and feel (Styles), or the opposite, it can 100% conform to your application style depending on how you build them.
+web compontest represent a leap forward in basing development on standards. A web componet is an application built inside of a custom HTML tag.
+
+```<my-custom-element myProperty='someValue'></my-custom-element>```
+
+A web component has the capacity to be like a stand alone application with its own built in DOM and facilities, and can be 100% agnostic of your application look and feel (Styles), or the opposite, it can 100% conform to your application style depending on how you build them.
 #### How?
 I have gone through the experience of learning how to build web componets from pure HTML, CSS and Javascript, and the first thing I learned is, Its hard, and takes time and would be easier if there was something that was not a bloated framework to get it done. Hello litElement.
 
