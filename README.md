@@ -11,7 +11,9 @@ Dependancies and the software development lifecycle interference we see caused b
 My Recent choices have been driven by the desire to solve the following problems:
 
 * Work intellegently online with lots of bandwidth, minimal bandwidth & offline.
-*
+* Less painful Upgrades
+* less bugs introduced when dependancies change.
+
 
 ### Frameworkless
 #### Why?
