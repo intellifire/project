@@ -224,11 +224,14 @@ Making an app or a website mobile ready after the fact is silly and wasteful and
 
 ### NodeJS & NPM
 #### Why?
+NodeJS and NPM offer several benefits:
+- NodeJS and NPM can be used to pre-build web components and while required during development, they do not add dependance to the final application, neither NodeJS nor NPM are required by the end user.
+- This combo has been very successful for rapid development of pure pure (HTML/JS vs React/Vue) web components.
 
 ### litElement (and LitHTML)
 #### Why?
-
-### Web Components (HTML/JS vs React/Vue)
+The advantages are obvious, but see details
+### Pure Web Components (HTML/JS vs React/Vue)
 #### Why?
 
 ### OpenAPI 3.0 aka Swagger
