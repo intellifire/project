@@ -1,3 +1,4 @@
+
 # Library Discussion Notes
 
 ## The Vision (My Current Thinking) and perhaps a case for doing it all!
@@ -167,9 +168,9 @@ the-benefits-of-progressive-web-apps-pwa-for-business/] [1]
 
 Building, Implementing and maintaining PWAs can be streamlined with the following tools/products (See explanations elsewhere in this document):
 
-- open web components
-- litElement
-- nodeJS
+- [Open Web Components](#open-web-components)
+- [litElement](#litelement)
+- [nodeJS](#nodejs)
 
 
 ### Mobile First
@@ -181,7 +182,7 @@ Making an app or a website mobile ready after the fact is silly and wasteful and
 
 #### How?
 
-- Leverage W3.CSS (mobile first)
+- Leverage (W3.CSS)[#w3css] (mobile first)
 - Leverage PWAs
 
 
@@ -260,7 +261,7 @@ NodeJS and NPM offer several benefits:
 
 ### litElement (and LitHTML)
 #### Why?
-The advantages are obvious, [but see details else where in this document](#lit-element-start)
+The advantages are obvious, [but see details else where in this document](#litelement)
 ### Pure Web Components (HTML/JS vs React/Vue)
 #### Why?
 see: [Web Components Elsewhere in this document](#web-components)
@@ -281,7 +282,34 @@ Finally, the resultant documentation provides not only great information on how 
 __Code Generation__
 with a simple line of code and 4 easy to answer questions, the OWC code generator can scaffold out a basic standards-based web component in seconds. and the code is perfect.
 
+### What about WebAssembly????
+#### wasm what?
+WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment. [Wikipedia](https://en.wikipedia.org/wiki/WebAssembly)
+
+Aug 21, 2020 — WebAssembly is a new type of code that can be run in modern web browsers — it is a low-level assembly-like language with a compact binary format that runs with near-native performance and provides languages such as C/C++, C# and Rust with a compilation target so that they can run on the web. [MDN](https://developer.mozilla.org/en-US/docs/WebAssembly)
+
+This video from 9 months (Feb 9, 2020) ago really helped me to grok WASM!
+
+[Kevin Hoffman — Building a Containerless Future with WebAssembly](https://www.youtube.com/watch?v=vqBtoPJoQOE)
+
+#### Why?
+
+__Universal machine code on any device__
+Imagine, write in the language of your choice, and compile to s single universal binary executable, a WASM file. That can be run in any browser and outperform everything except natively compiled machine code.
+
+
+__Microsoft retools the universe to webAssembly via Blazor__
+* Blazor can run your client-side C# code directly in the browser, using WebAssembly. Because it's real .NET running on WebAssembly, you can re-use code and libraries from server-side parts of your application.
+
+* Blazor lets you build interactive web UIs using C# instead of JavaScript. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code is written in C#, allowing you to share code and libraries.
+
+* Blazor is a feature of ASP.NET, the popular web development framework that extends the .NET developer platform with tools and libraries for building web apps.
+
+* Microsoft is not always the act to follow, but it is a clear indicator fo what the software giant is thinking, today most roads lead to blazor which runs on web assembly.
+
 
 
 
 [1]: [above summarized from: https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/](https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/)
+
+[Back to the top](#library-discussion-notes)
