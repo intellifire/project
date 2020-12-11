@@ -284,6 +284,9 @@ with a simple line of code and 4 easy to answer questions, the OWC code generato
 
 ### What about WebAssembly????
 #### wasm what?
+
+[https://webassembly.org/](https://webassembly.org/)
+
 WebAssembly is an open standard that defines a portable binary-code format for executable programs, and a corresponding textual assembly language, as well as interfaces for facilitating interactions between such programs and their host environment. [Wikipedia](https://en.wikipedia.org/wiki/WebAssembly)
 
 Aug 21, 2020 — WebAssembly is a new type of code that can be run in modern web browsers — it is a low-level assembly-like language with a compact binary format that runs with near-native performance and provides languages such as C/C++, C# and Rust with a compilation target so that they can run on the web. [MDN](https://developer.mozilla.org/en-US/docs/WebAssembly)
@@ -338,7 +341,10 @@ git clone https://github.com/emscripten-core/emsdk.git
 cd emsdk
 ```
 
-I also found this small slideshow intresting showing how we got to the fundamental toolchain we have now. hit right arrow to se next slide.
+__The WebAssembly JavaScript API__
+[MDN:](https://developer.mozilla.org/en-US/docs/WebAssembly/Using_the_JavaScript_API)
+
+I also found this small slideshow intreating showing how we got to the fundamental toolchain we have now. hit right arrow to se next slide.
 
 [2016 - A WEBASSEMBLY TOOLCHAIN STORY](https://kripken.github.io/talks/emwasm.html#/)
 
