@@ -7,7 +7,7 @@
 The current trend in development seems to be following the ubiquity of big bore bandwidth. I have always felt the pain of this folly as I live in an area that is rife with inconsistent and inferior bandwidth. When Applications are developed on the assumption that big pipes are available all the time, or that cellular networks mean accessibility everywhere, Our decision support systems fail and then we try to mitigate because we cannot address the root cause, a poorly architected Solution, ill equipped to handle the real world situations of minimal, or no connectivity.
 
 ### Dependencies
-Dependencies and the software development lifecycle interference we see caused by changes to dependencies and another big factor here. Until Software I build is supported by more than a one-man-army, I need the software maintenance to be sustainable, and upstream changes
+Dependencies and the software development lifecycle interference we see caused by changes to dependencies are another big factor here. Until Software I build is supported by more than a one-man-army, I need the software maintenance to be sustainable, and upstream changes to have less negative impact on my workflow.
 
 My Recent choices have been driven by the desire to solve the following problems:
 
