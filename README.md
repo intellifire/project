@@ -297,6 +297,11 @@ This video from 9 months (Feb 9, 2020) ago really helped me to grok WASM!
 __Universal machine code on any device__
 Imagine, write in the language of your choice, and compile to s single universal binary executable, a WASM file. That can be run in any browser and outperform everything except natively compiled machine code.
 
+#### How?
+There is already a toolchain we can use to compile WASM.
+The first suite out of the gate? Maybe.... Meet Blazor!
+
+[MS Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 
 __Microsoft retools the universe to webAssembly via Blazor__
 * Blazor can run your client-side C# code directly in the browser, using WebAssembly. Because it's real .NET running on WebAssembly, you can re-use code and libraries from server-side parts of your application.
@@ -305,9 +310,37 @@ __Microsoft retools the universe to webAssembly via Blazor__
 
 * Blazor is a feature of ASP.NET, the popular web development framework that extends the .NET developer platform with tools and libraries for building web apps.
 
-* Microsoft is not always the act to follow, but it is a clear indicator fo what the software giant is thinking, today most roads lead to blazor which runs on web assembly.
+* Microsoft is not always the act to follow, but it is a clear indicator of what the software giant is thinking about the future, today most roads lead to blazor which runs on web assembly. Microsoft Envisions a future Web powered by WebAssembly.
 
+#### Does this mean married to M$ again?
+No, Blazor while amazing, is just the fist set of tools out of the gate. WASM can be done with pure standards and the basic foundations of WASM. You dont need microsoft or any corp tools, but that approach means we build our own tools, or use what the universe provides.
 
+#### What else is there out there?
+
+__Emscripten__
+
+[From the Emscripten Website](https://emscripten.org/index.html)
+Emscripten is a complete compiler toolchain to WebAssembly, using LLVM, with a special focus on speed, size, and the Web platform.
+
+* Compile your existing projects written in C or C++ — or any language that uses LLVM — to browsers, Node.js, or wasm runtimes.
+
+* Emscripten converts OpenGL into WebGL, and has support for familiar APIs like SDL, pthreads, and POSIX, as well as Web APIs and JavaScript.
+
+* Thanks to the combination of LLVM, Emscripten, Binaryen, and WebAssembly, the output is compact and runs at near-native speed.
+
+The core Emscripten SDK (emsdk) driver is a Python script. You can get it for the first time with
+
+```
+# Get the emsdk repo
+git clone https://github.com/emscripten-core/emsdk.git
+
+# Enter that directory
+cd emsdk
+```
+
+I also found this small slideshow intresting showing how we got to the fundamental toolchain we have now. hit right arrow to se next slide.
+
+[2016 - A WEBASSEMBLY TOOLCHAIN STORY](https://kripken.github.io/talks/emwasm.html#/)
 
 
 [1]: [above summarized from: https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/](https://www.sam-solutions.com/blog/the-benefits-of-progressive-web-apps-pwa-for-business/)
