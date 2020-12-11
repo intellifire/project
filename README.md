@@ -182,8 +182,8 @@ Making an app or a website mobile ready after the fact is silly and wasteful and
 
 #### How?
 
-- Leverage (W3.CSS)[#w3css] (mobile first)
-- Leverage PWAs
+- Leverage [W3.CSS](#w3css) (mobile first)
+- Leverage [PWAs](#progressive-web-apps)
 
 
 
