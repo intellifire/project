@@ -22,7 +22,7 @@ My Recent choices have been driven by the desire to solve the following problems
 #### Why?
 Frameworks come and go, while web standards tend to stick around and evolve in a backwards  compatible way. Frameworks cost bandwidth & overall application footprint real estate, while they save development time. They also increase dependency madness and increase the possibility of introducing bugs with any dependency upgrade/changes and frameworks can affect the ‘health’ and lifespan of a codebase.
 
-web standards and web components themselves wont fundamentally change as often as a framework or a library, and when standards change they are usually backwards compatible or deprecation and migration is usually well documented at MDN
+Web standards and web components themselves wont fundamentally change as often as a framework or a library, and when standards change they are usually backwards compatible or deprecation and migration is usually well documented at MDN.
 
 #### How?
 Going frameworkless looks attractive to me for many reasons, but mostly because it is eminently doable. The Modern Browser is now capable of doing so much more since the addition of the following to basic browser ecosystems.
@@ -30,7 +30,7 @@ Going frameworkless looks attractive to me for many reasons, but mostly because 
 * Fetch API
 * ES6 Features
 
-with vast improvements under the hood of the browsers addressing:
+With vast improvements under the hood of the browsers addressing:
 
 * DOM manipulation works
 * front-end application state management with different patterns
@@ -50,25 +50,23 @@ I have gone through the experience of learning how to build web components from 
 ##### litElement
 This very lightweight javascript library provides a simple base class for creating fast, lightweight web components. From the website:
 > LitElement makes it easy to define Web Components – ideal for sharing elements across your organization or building a UI design system.
-
+> 
 > Use your components anywhere you use HTML: in your main document, a CMS, Markdown, or a framework like React or Vue.
-
+> 
 > ### Delightfully declarative
 > LitElement’s simple, familiar development model makes it easier than ever to build Web Components.
-
+> 
 > Express your UI declaratively, as a function of state. No need to learn a custom templating language – you can use the full power of JavaScript in your templates. Elements update automatically when their properties change.
-
+> 
 > ### Fast and light
 > Whether your end users are in emerging markets or Silicon Valley, they’ll appreciate that LitElement is extremely fast.
-
+> 
 > LitElement uses lit-html to define and render HTML templates. DOM updates are lightning-fast, because lit-html only re-renders the dynamic parts of your UI – no diffing required.
-
+> 
 > ### Seamlessly interoperable
 > LitElement follows the Web Components standards, so your components will work with any framework.
-
+> 
 > LitElement uses Custom Elements for easy inclusion in web pages, and Shadow DOM for encapsulation. There’s no new abstraction on top of the web platform.
-
-
 
 
 ### Service Oriented Architecture
@@ -89,7 +87,7 @@ From the 2020 State of PWA report:
 ![From the 2020 State of PWA report](https://simplabs.com/assets/images/posts/2020-06-10-the-state-of-pwa-support-on-mobile-and-desktop-in-2020/infographic@1800-86adeafe83d6d8f7cac59be98a208ff6.png)
 
 
-recent research shows that PWAs can provide many benefits:
+Recent research shows that PWAs can provide many benefits:
 
 * 68% increase of mobile traffic
 * 15-fold improvement of load and installation speed
@@ -113,7 +111,7 @@ recent research shows that PWAs can provide many benefits:
 
 3. Fast Installation
 - PWA Install experience is faster, smoother and improves user experience.
-- no App Store or Google Play.
+- No App Store or Google Play.
 - After installation of PWAs, access it via a desktop(desktop/laptop/tablet) or homescreen(mobile) icon.
 - Some browsers offer call-to-action-like teasers that prompt users to download these apps
 eg using
