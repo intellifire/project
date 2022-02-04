@@ -1,7 +1,7 @@
 
-# Library Discussion Notes
+# General Development Directions
 
-## The Vision (My Current Thinking) and perhaps a case for doing it all!
+## The Vision (Franco's Current Thinking) and perhaps a case for doing it all!
 
 ### Bandwidth
 The current trend in development seems to be following the ubiquity of big bore bandwidth. I have always felt the pain of this folly as I live in an area that is rife with inconsistent and inferior bandwidth. When Applications are developed on the assumption that big pipes are available all the time, or that cellular networks mean accessibility everywhere, Our decision support systems fail and then we try to mitigate because we cannot address the root cause, a poorly architected Solution, ill equipped to handle the real world situations of minimal, or no connectivity.
